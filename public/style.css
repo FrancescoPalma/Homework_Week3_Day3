@@ -137,16 +137,6 @@ input[type='submit'] {
   cursor:pointer;
 }
 
-input[type='submit']:active {
-  background-color: #oldlace;
-  outline:none;
-  color: saddlebrown;
-}
-
-input[type='submit']:focus {
-  outline:none;
-}
-
 /* Purchase */
 
 .purchase {
