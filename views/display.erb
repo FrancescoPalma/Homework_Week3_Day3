@@ -1,0 +1,16 @@
+<div class="display-container">
+  <div class="display-title">
+    <h1>Current Shoosey® Orders</h1>
+  </div>
+  <% for shoos in @all_shoos %>
+    <div class="display-tile">
+      Name: <%= shoos.name %><br>
+      Address: <%= shoos.address %><br>
+      Quantity: <%= shoos.quantity %><br>
+      Size: <%= shoos.size %><br>
+    </div>
+
+  <% end %>
+</div>
+
+<div class="clear"></div>
